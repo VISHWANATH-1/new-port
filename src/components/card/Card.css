@@ -13,6 +13,7 @@
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 5px;
 }
 .project-card img{
     width: 100%;

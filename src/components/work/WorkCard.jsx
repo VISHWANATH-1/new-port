@@ -19,13 +19,13 @@ const ProjectCard =[
         imgsrc: pro3,
         title:"imdb clone app",
         text:"It Is A Clone Of Imdb ",
-        view:"imdb-f1l.pages.dev/"
+        view:"https://imdb-f1l.pages.dev/"
     },
     {
         imgsrc: pro4,
         title:"Portfolio",
         text:"It Is About My Portfolio ",
-        view:"portfolio-30n.pages.dev/"
+        view:"https://myportfolio-psi-kohl.vercel.app/"
     },
     {   
         imgsrc: pro3,

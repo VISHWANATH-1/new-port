@@ -3,7 +3,7 @@ import React from 'react'
 import Intro from "../../pic/intro-bg.jpg"
 import { Link } from "react-router-dom";
 const Hero = () => {
-  return (
+  return ( 
     <div className="Hero">
         <div className="mask">
             <img className="intro-img" src={Intro} alt="" />

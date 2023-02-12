@@ -11,7 +11,7 @@ url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;60
 }
 
 body {
-  background: #000;
+  background: #5ecdab;
 }
 
 h1,
@@ -25,10 +25,11 @@ ul{
   list-style-type: none;
 }
 .btn{
+  border-radius: 2px;
   padding: 12px 32px;
   font-style: 1rem;
   text-transform: uppercase;
-  background: rgb(248,217,15);
+  background: #0FBF8A;
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;
