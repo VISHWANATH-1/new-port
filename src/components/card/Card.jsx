@@ -1,24 +1,25 @@
 import "../card/Card.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
-const Card = (props) => {
+const Card = ({ imgsrc, view, text, title }) => {
   return (
-   
-        <div className="project-card">
-          <img src={props.imgsrc} alt="" />
-          <h2 className="project-title">{props.title}</h2>
-          <div className="pro-details">
-            <p>{props.text}</p>
-            <div className="pro-btns">
-              <NavLink to={props.view} className="btn">
-                View
-              </NavLink>
-              <NavLink to="url.com" className="btn">
-                Source
-              </NavLink>
-            </div>
+    <div className="project-card">
+      <div style={{width:'100%'}}>
+        <img src={imgsrc} alt="" />
+        <h2 className="project-title">{title}</h2>
+        <div className="pro-details">
+          <p>{text}</p>
+          <div className="pro-btns">
+            <NavLink to={view} className="btn">
+              View
+            </NavLink>
+            <NavLink to="url.com" className="btn">
+              Source
+            </NavLink>
           </div>
         </div>
+      </div>
+    </div>
   );
 };
 
