@@ -1,7 +1,10 @@
-import pro1 from "../../pic/project1.png";
-import pro2 from "../../pic/project2.png";
-import pro3 from "../../pic/project3.png";
-import pro4 from "../../pic/project4.png";
+import pro1 from '../../pic/gym-girl.jpg'
+import pro2 from "../../pic/todo.jpg";
+import pro3 from "../../pic/imdb.jpg";
+import pro4 from "../../pic/pfolio.jpg";
+import pro5 from "../../pic/calcu.jpg";
+import pro6 from '../../pic/login.webp'
+import pro7 from "../../pic/Dash.webp";
 const ProjectCard =[
     {
         imgsrc: pro1,
@@ -28,16 +31,22 @@ const ProjectCard =[
         view:"https://myportfolio-psi-kohl.vercel.app/"
     },
     {   
-        imgsrc: pro3,
+        imgsrc: pro5,
         title:"calculator",
         text:"It is calculator App",
         view:"https://calculator-omega-wine.vercel.app/"     
     } ,
     {
-        imgsrc:pro2,
+        imgsrc:pro6,
         title:"login",
         text:"Login Logout using local storage",
         view:"https://logio.vercel.app/"
+    },
+      {
+        imgsrc:pro7,
+        title:"Dash-Board",
+        text:"Shopping-Dashboard App",
+        view:"https://shop-dashboard-nu.vercel.app/"
     }
 ];
 export default ProjectCard;
