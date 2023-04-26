@@ -2,8 +2,8 @@ import "./Footer.css";
 import React from "react";
 import {
   FaFacebook,
+  FaGithub,
   FaHome,
-  FaInstagram,
   FaLinkedin,
   FaMailBulk,
   FaPhone,
@@ -47,18 +47,30 @@ const Footer = () => {
             New-Projects And Deploying Them,It Improves My Learninig Capability.
           </p>
           <div className="social">
+          <a
+              href={"https://www.facebook.com/VishwaNathPandeyJii/" }
+              aria-label='Facebook'
+            >
             <FaFacebook
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            /></a>
+            <a
+              href={"https://www.linkedin.com/in/vishwanath-pandey-16a514115" }
+              aria-label='Linkedin'
+            >
             <FaLinkedin
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            /></a>
+             <a
+              href={"https://github.com/VISHWANATH-1" }
+              aria-label='Github'
+            >
+            <FaGithub
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            /></a>
           </div>
         </div>
       </div>

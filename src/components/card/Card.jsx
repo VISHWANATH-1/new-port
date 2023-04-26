@@ -4,18 +4,18 @@ import { NavLink } from "react-router-dom";
 const Card = ({ imgsrc, view, text, title }) => {
   return (
     <div className="project-card">
-      <div style={{width:'100%'}}>
+      <div style={{ width: "100%" }}>
         <img src={imgsrc} alt="" />
         <h2 className="project-title">{title}</h2>
         <div className="pro-details">
           <p>{text}</p>
           <div className="pro-btns">
-            <NavLink to={view} className="btn">
+            <a href={view} className="btn">
               View
-            </NavLink>
-            <NavLink to="url.com" className="btn">
-              Source
-            </NavLink>
+            </a>
+              <NavLink to="url.com" className="btn">
+                Source
+              </NavLink>
           </div>
         </div>
       </div>
