@@ -48,7 +48,7 @@ const Footer = () => {
           </p>
           <div className="social">
           <a
-              href={"https://www.facebook.com/VishwaNathPandeyJii/" }
+              href={"https://www.facebook.com" }
               aria-label='Facebook'
             >
             <FaFacebook
@@ -56,7 +56,7 @@ const Footer = () => {
               style={{ color: "#fff", marginRight: "1rem" }}
             /></a>
             <a
-              href={"https://www.linkedin.com/in/vishwanath-pandey-16a514115" }
+              href={"https://www.linkedin.com" }
               aria-label='Linkedin'
             >
             <FaLinkedin
@@ -64,7 +64,7 @@ const Footer = () => {
               style={{ color: "#fff", marginRight: "1rem" }}
             /></a>
              <a
-              href={"https://github.com/VISHWANATH-1" }
+              href={"https://github.com" }
               aria-label='Github'
             >
             <FaGithub
